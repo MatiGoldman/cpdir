@@ -22,6 +22,7 @@ public class Employee {
     private String lastName;
     private String teamName;
     private String positionName;
-    private Long idManager;
+    private Long managerId;
     private int phone;
+
 }
