@@ -19,7 +19,7 @@ public class EmployeeController {
         return service.setEmployee(employee);
     }
 
-    @PostMapping("/getEmployees")
+    @GetMapping("/getEmployees")
     public List<Employee> getEmployees() {
         return service.getEmployees();
     }
