@@ -25,8 +25,8 @@
 
 2) Open your IDE of preference
 
-3) In the *application.properties* file, change: `jdbc:mysql://mysqldb:3306/cpdir?allowPublicKeyRetrieval=true&useSSL=false`
-For this: `jdbc:mysql://localhost:3306/cpdir?allowPublicKeyRetrieval=true&useSSL=false`
+3) In the *application.properties* file, change the following line:
+`jdbc:mysql://mysqldb:3306/cpdir?allowPublicKeyRetrieval=true&useSSL=false` replacing *mysqldb* for *localhost*
 
 4) Run the project.
 
@@ -61,6 +61,6 @@ curl --location --request POST 'http://IP:8080/addEmployee' \
 }'
 ```
 
-### Postman
+#### Postman
 
 You only need to put the URL: http://IP:8080/API and make the relevant request. 
